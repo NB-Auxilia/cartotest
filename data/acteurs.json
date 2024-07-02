@@ -1,0 +1,18 @@
+{
+  "nodes": [
+    {"id": "Actor 1", "group": 1},
+    {"id": "Actor 2", "group": 1},
+    {"id": "Actor 3", "group": 2},
+    {"id": "Actor 4", "group": 2},
+    {"id": "Actor 5", "group": 3},
+    {"id": "Actor 6", "group": 3}
+  ],
+  "links": [
+    {"source": "Actor 1", "target": "Actor 2", "value": 1},
+    {"source": "Actor 1", "target": "Actor 3", "value": 1},
+    {"source": "Actor 2", "target": "Actor 4", "value": 1},
+    {"source": "Actor 3", "target": "Actor 5", "value": 1},
+    {"source": "Actor 4", "target": "Actor 5", "value": 1},
+    {"source": "Actor 5", "target": "Actor 6", "value": 1}
+  ]
+}
